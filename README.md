@@ -36,13 +36,13 @@ https://github.com/Ehsan86Re/SpeerAssessmentBackEnd/blob/main/postman_collection
 
 ## API Endpoints
 - Authentication
-    POST /api/auth/signup: Create a new user account.
-    POST /api/auth/login: Log in to an existing user account and receive an access token.
+   - POST /api/auth/signup: Create a new user account.
+   - POST /api/auth/login: Log in to an existing user account and receive an access token.
 - Notes
-    GET /api/notes: Get a list of all notes for the authenticated user.
-    POST /api/notes: Create a new note for the authenticated user.
-    GET /api/notes/:id: Get a note by ID for the authenticated user.
-    PUT /api/notes/:id: Update an existing note by ID for the authenticated user.
-    DELETE /api/notes/:id: Delete a note by ID for the authenticated user.
-    POST /api/notes/:id/share: Share a note with another user for the authenticated user.
-    GET /api/search?q=:query: Search for notes based on keywords for the authenticated user.
+   - GET /api/notes: Get a list of all notes for the authenticated user.
+   - POST /api/notes: Create a new note for the authenticated user.
+   - GET /api/notes/:id: Get a note by ID for the authenticated user.
+   - PUT /api/notes/:id: Update an existing note by ID for the authenticated user.
+   - DELETE /api/notes/:id: Delete a note by ID for the authenticated user.
+   - POST /api/notes/:id/share: Share a note with another user for the authenticated user.
+   - GET /api/search?q=:query: Search for notes based on keywords for the authenticated user.
